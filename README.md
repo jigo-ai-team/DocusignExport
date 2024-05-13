@@ -1,19 +1,10 @@
 ﻿
-
-## Introduction
-
-This repo is a Python 3 application that supports the following authentication workflows:
-
-* Authentication with Docusign via [Authorization Code Grant](https://developers.docusign.com/platform/auth/authcode).
-When the token expires, the user is asked to re-authenticate. The refresh token is not used.
-
-  
 ## Installation
 
 ### Prerequisites
 
-1. A free [Docusign developer account](https://go.docusign.com/o/sandbox/); create one if you don't already have one.
-2. Docusign app and integration key that is configured to use either [Authorization Code Grant](https://developers.docusign.com/platform/auth/authcode/) 
+1. Please get a free [Docusign developer account](https://go.docusign.com/o/sandbox/) if you don't already have one.
+2. Docusign app and integration key that is configured to use [Authorization Code Grant](https://developers.docusign.com/platform/auth/authcode/) 
 
    For authentication flows:  
    
@@ -30,7 +21,7 @@ When the token expires, the user is asked to re-authenticate. The refresh token 
 ### Installation steps
 
 1. In your command-line environment, switch to the folder:  
-   `cd <DocuSign_PyCharm-FINAL>
+   `cd <DocuSign_project>
 2. To install dependencies, run: `pip3 install -r requirements.txt`  (or pipenv can be used)
 3. To configure the app/ds_config.py.
    **+ Integration Key** GUID and save it in ds_config.py as your `ds_client_id`.
