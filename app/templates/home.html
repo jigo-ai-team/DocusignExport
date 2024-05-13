@@ -1,0 +1,22 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container" style="margin-top: 40px" id="index-page">
+
+        <div id="filtered_code_examples" class="container" style="margin-top: 10px; padding-left: 0px;">
+
+            <h2>Download DocuSign Document</h2>
+                <h4 id="example012">
+                    <a href="{{ url_for('embedconsole.get_view') }}">Click here to continue</a>
+                </h4>
+            <br>
+            <br>
+        </div>
+
+        <div id="api_json_data" class="hidden">{{to_json }}</div>
+        <div id="cfr11_data" class="hidden">{{ crfEnabled }}</div>
+    </div>
+
+    {% endblock %}
