@@ -24,9 +24,9 @@
    `cd <DocuSign_project>
 2. To install dependencies, run: `pip3 install -r requirements.txt`  (or pipenv can be used)
 3. To configure the app/ds_config.py.
-   **+ Integration Key** GUID and save it in ds_config.py as your `ds_client_id`.
-   **+ ADD SECRET KEY**. Copy the secret key and save it in ds_config.py as your `ds_client_secret`.
-   **+ ADD URI**, and set a redirect URI of http://localhost:3000/ds/callback. 
+   Integration Key** GUID and save it in ds_config.py as your `ds_client_id`.
+   ADD SECRET KEY**. Copy the secret key and save it in ds_config.py as your `ds_client_secret`.
+   ADD URI**, and set a redirect URI of http://localhost:3000/ds/callback. 
 
 4. Run the launcher:`python run.py`  
    **Note:** You will need to alias the python command to run Python 3 or use `python3 run.py`
